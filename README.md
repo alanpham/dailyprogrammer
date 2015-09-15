@@ -1,2 +1,2 @@
 # dailyprogrammer
-Solutions to r/dailyprogrammer
+These will be my solutions to r/dailyprogrammer.
