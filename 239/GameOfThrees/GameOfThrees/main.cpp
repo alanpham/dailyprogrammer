@@ -9,7 +9,24 @@
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    int num;
+    std::cout << "Input a number: ";
+    std::cin >> num;
+    
+    while (num != 1){
+        if (num % 3 == 0){
+            std::cout << num << " 0" << std::endl;
+        }
+        else if ((num) % 3  == 1){
+            std::cout << num << " -1" << std::endl;
+            num -= 1;
+        }
+        else if ((num) % 3 == 2) {
+            std::cout << num << " 1" << std::endl;
+            num += 1;
+        }
+        num /= 3;
+    }
+    std::cout << num << std::endl;
     return 0;
 }
